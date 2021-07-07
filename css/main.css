@@ -211,17 +211,20 @@ html:not([data-scroll="0"]) a {
 }
 
 #projectsBody li #liHeader {
-    font-size: 1.2rem;
-    margin: .4rem;
+    margin: .7rem;
+}
+
+#projectsBody li #liHeader h2{
+    font-size: 1.35rem;
 }
 
 #projectsBody li #liData {
-    margin: .4rem;
+    margin: .7rem;
 }
 
 #projectsBody li #Link {
     text-align: right;
-    margin: .9rem 0 .45rem 0;
+    margin: 1rem 0 .45rem 0;
 }
 
 #projectsBody li #Link a {
