@@ -44,3 +44,9 @@ html:not([data-scroll="0"]) #navbarParent {
     align-items: center;
     flex-wrap: wrap;
 }
+
+.sideBarPositioning {
+    position: fixed;
+    left: .5rem;
+    bottom: .5rem;
+}
