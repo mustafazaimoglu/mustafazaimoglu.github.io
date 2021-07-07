@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 5px rgb(43, 43, 43);
+    background-color: #cacaca;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #555555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#background {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbarParent {
+    transition: .5s;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: .8rem 1rem;
+    width: 100vw;
+}
+
+
+html:not([data-scroll="0"]) #navbarParent {
+    transition: .5s;
+    background-color: #fff;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .7);
+    height: 60px;
+}
+
+html:not([data-scroll="0"]) a {
+    color: #000;
+}
+
+/* #navbar #navbarLinks {
+    display: flex;
+    align-items: center;
+} */
+
+#openCloseButton {
+    display: none;
+}
+
+#navbar div {
+    margin: .4rem;
+}
+
+#navbar a {
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+
+#navbar a:hover {
+    opacity: 0.5;
+    transition: .4s;
+}
+
+.sideBarPositioning {
+    left: .8rem;
+    bottom: 1rem;
+    position: fixed;
+}
+
+#accounts {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding-top: .1rem;
+}
+
+.accountSvg {
+    padding: .4rem .3rem 0.1rem;
+    margin: .1rem;
+}
+
+.accountSvg img:hover {
+    opacity: .4;
+}
+
+#mainPageSection {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.2rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+}
+
+#mainHeader h1 {
+    font-weight: bold;
+    font-size: 2.1rem;
+    letter-spacing: 1.5px;
+}
+
+#mainInfo {
+    font-size: 1.2rem;
+}
+
+#education {
+    background-color: #191919;
+    padding: 1.6rem;
+    color: #fff;
+}
+
+#educationHead h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+#educationBody ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#educationBody li {
+    min-width: 350px;
+    max-width: 460px;
+    margin: .7rem;
+}
+
+#educationBody h2 {
+    padding: .4rem 0;
+}
+
+#projects {
+    padding: 1.6rem;
+}
+
+#projectsHead h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+#projectsBody ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#projectsBody li {
+    max-width: 460px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .3);
+    margin: .7rem;
+}
+
+#projectsBody li #liHeader {
+    font-size: 1.2rem;
+    margin: .4rem;
+}
+
+#projectsBody li #liData {
+    margin: .4rem;
+}
+
+#projectsBody li #Link {
+    text-align: right;
+    margin: .9rem 0 .45rem 0;
+}
+
+#projectsBody li #Link a {
+    /* background: linear-gradient(225deg, rgb(78, 255, 249) 0%, rgb(102, 255, 79) 100%); */
+    background-color: #191919;
+    border-radius: 3px;
+    padding: .3rem;
+    margin: .4rem .2rem;
+    color: white;
+}
+
+#projectsBody li #Link a:hover {
+    background: linear-gradient(225deg, rgba(69, 67, 255) 0%, rgba(241, 81, 249) 100%);
+}
+
+.imageRadius {
+    border-radius: 5px 5px 0 0;
+}
+
+footer {
+    background-color: #191919;
+    padding: 1.6rem;
+    color: #fff;
+}
+
+#footerUp {
+    font-style: italic;
+    text-align: center;
+    padding: .7rem;
+}
+
+#footerLow {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer #footerLow span {
+    width: 50px;
+    height: 11px;
+    border-bottom: 2px #fff solid;
+    margin: 0 1.2rem;
+}

@@ -1,0 +1,31 @@
+#openCloseButton {
+    display: block;
+}
+
+#navbarParent {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 80px;
+}
+
+html:not([data-scroll="0"]) #navbarParent {
+    height: 80px;
+}
+
+#navbar {
+    height: 100%;
+    padding: 0;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: .3rem;
+}
+
+#navbar a {
+    color: #000;
+    margin: .7rem .7rem .5rem .7rem;
+}
