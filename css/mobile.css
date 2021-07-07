@@ -29,3 +29,19 @@ html:not([data-scroll="0"]) #navbarParent {
     color: #000;
     margin: .7rem .7rem .5rem .7rem;
 }
+
+#educationBody ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#projectsBody ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
