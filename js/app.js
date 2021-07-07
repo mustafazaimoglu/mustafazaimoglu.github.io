@@ -9,11 +9,3 @@ document.addEventListener('scroll', () => {
 function storeScrollPosition(){
     document.documentElement.dataset.scroll = window.scrollY;
 }
-
-function mobileNavbar(){
-    // if (links.style.display === "flex") {
-    //     links.style.display = "none";
-    //   } else {
-    //     links.style.display = "flex";
-    //   }
-}
