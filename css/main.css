@@ -135,7 +135,6 @@ html:not([data-scroll="0"]) a {
     height: auto;
     margin-bottom: -1.6rem;
     border-radius: 15px;
-    border: 1px solid white;
 }
 
 #home {
