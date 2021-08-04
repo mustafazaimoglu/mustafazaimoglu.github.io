@@ -114,10 +114,11 @@ html:not([data-scroll="0"]) a {
 #accounts {
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(3px);
     border-radius: 10px;
     padding-top: .1rem;
+    border: 1px solid #616161;
 }
 
 .accountSvg {
@@ -131,10 +132,10 @@ html:not([data-scroll="0"]) a {
 
 .responsiveImage {
     width: 100%;
-    max-width: 270px;
+    max-width: 250px;
     height: auto;
     margin-bottom: -1.6rem;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 
 #home {
@@ -146,10 +147,10 @@ html:not([data-scroll="0"]) a {
 
 #mkzImage {
     z-index: 1050;
-    padding: 1rem 1rem 0 1rem;
-    background-color: rgba(255, 255, 255, 0.25);
+    padding: 1.2rem 1.2rem 0 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(3px);
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 #mainPageSection {
@@ -157,16 +158,16 @@ html:not([data-scroll="0"]) a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2.2rem;
-    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(3px);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 #mainHeader h1 {
     font-weight: bold;
     font-size: 2.1rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 #mainInfo {
