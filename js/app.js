@@ -8,7 +8,7 @@ let sayings = [
     "Trees grow in silence",
     "Yesterday is history, tomorrow is a mistery but today is a gift. That is why it is called present",
     "Have more than you show, speak less than you know",
-    "If you believe you will never get better, you are correct. If you believe you can get better, you are more correct"
+    "If you believe you will never get better, you are correct. If you believe you can get better, you are more correct",
 ];
 getJSON();
 
@@ -19,7 +19,8 @@ function getJSON() {
         .catch((err) => console.error(err));
 }
 
-sayingElement.innerHTML = "\"" + sayings[Math.floor((Math.random() * sayings.length))] +"\"";
+sayingElement.innerHTML =
+    '"' + sayings[Math.floor(Math.random() * sayings.length)] + '"';
 
 function renderUI(projetcs) {
     projetcs.forEach((p) => {
