@@ -2,10 +2,6 @@
     display: block;
 }
 
-#background {
-    margin-top: 1rem;
-}
-
 #navbarParent {
     width: 100%;
     position: fixed;
