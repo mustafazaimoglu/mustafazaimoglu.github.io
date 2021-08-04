@@ -2,6 +2,10 @@
     display: block;
 }
 
+#background {
+    margin-top: 1rem;
+}
+
 #navbarParent {
     width: 100%;
     position: fixed;
@@ -49,10 +53,12 @@ html:not([data-scroll="0"]) #navbarParent {
 }
 
 .sideBarPositioning {
-    position: absolute;
-    bottom: .2rem;
-    left: 50%;
-    transform: translate(-50%,5%);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #191919;
+    box-shadow: 0 0 .5em 1px rgba(19, 19, 19, 0.5);
 }
 
 #accounts {
@@ -64,6 +70,19 @@ html:not([data-scroll="0"]) #navbarParent {
 }
 
 .accountSvg {
-    padding: .2rem .35rem;
+    padding: .3rem .35rem .1rem;
     margin: .1rem;
+}
+
+#educationBody ul {
+    justify-content: center;
+    align-items: center;
+}
+
+#educationBody li {
+    min-width: 0px;
+}
+
+footer {
+    padding: 1.4rem 1.6rem 3.25rem 1.6rem;
 }
