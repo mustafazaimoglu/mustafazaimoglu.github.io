@@ -211,7 +211,6 @@ html:not([data-scroll="0"]) a {
     flex-wrap: wrap;
 }
 
-
 #projectsBody li {
     max-width: 460px;
     border-radius: 5px;

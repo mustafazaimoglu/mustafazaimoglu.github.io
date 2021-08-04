@@ -80,7 +80,7 @@ html:not([data-scroll="0"]) #navbarParent {
 }
 
 #educationBody li {
-    min-width: 0px;
+    min-width: 200px;
 }
 
 footer {
