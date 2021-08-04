@@ -7,11 +7,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 80px;
+    height: 65px;
 }
 
 html:not([data-scroll="0"]) #navbarParent {
-    height: 80px;
+    height: 65px;
 }
 
 #navbar {
@@ -21,12 +21,15 @@ html:not([data-scroll="0"]) #navbarParent {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: .3rem;
 }
 
 #navbar a {
     color: #000;
-    margin: .7rem .7rem .5rem .7rem;
+    margin: .55rem .6rem .4rem .6rem;
+}
+
+#navbarLinks {
+    margin: .1rem .7rem .4rem .7rem !important;
 }
 
 #educationBody ul {
@@ -46,7 +49,21 @@ html:not([data-scroll="0"]) #navbarParent {
 }
 
 .sideBarPositioning {
-    position: fixed;
-    left: .5rem;
-    bottom: .5rem;
+    position: absolute;
+    bottom: .4rem;
+    left: 50%;
+    transform: translate(-50%,5%);
+}
+
+#accounts {
+    display: flex;
+    flex-direction: row;
+    padding-top: .1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountSvg {
+    padding: .2rem .35rem;
+    margin: .1rem;
 }
