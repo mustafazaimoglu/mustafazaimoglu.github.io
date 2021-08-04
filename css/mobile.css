@@ -50,7 +50,7 @@ html:not([data-scroll="0"]) #navbarParent {
 
 .sideBarPositioning {
     position: absolute;
-    bottom: .4rem;
+    bottom: .2rem;
     left: 50%;
     transform: translate(-50%,5%);
 }

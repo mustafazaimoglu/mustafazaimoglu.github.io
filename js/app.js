@@ -3,7 +3,7 @@ storeScrollPosition(); // for first load
 const projectsElement = document.querySelector("#projectsBody ul");
 const sayingElement = document.querySelector("#footerUp");
 let sayings = [
-    "The real life starts when you realize you have one",
+    "The real life starts when you realize you only have one",
     "The real knowledge is to know that you know nothing",
     "Trees grow in silence",
     "Yesterday is history, tomorrow is a mistery but today is a gift. That is why it is called present",
