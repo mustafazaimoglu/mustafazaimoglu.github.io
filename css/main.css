@@ -221,8 +221,8 @@ html:not([data-scroll="0"]) a {
 }
 
 #projectsBody li:hover {
-    margin-top: -0.3rem;
-    margin-bottom: 2.3rem;
+    margin-top: -0.1rem;
+    margin-bottom: 2.1rem;
     transition: .5s;
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .5);
 }
