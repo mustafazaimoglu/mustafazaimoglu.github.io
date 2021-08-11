@@ -165,7 +165,7 @@ html:not([data-scroll="0"]) a {
 }
 
 #education {
-    background-color: #191919;
+    background-color: #181818;
     padding: 1.6rem;
     color: #fff;
 }
@@ -173,7 +173,7 @@ html:not([data-scroll="0"]) a {
 #educationHead h1 {
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
 }
 
 #educationBody ul {
@@ -195,19 +195,19 @@ html:not([data-scroll="0"]) a {
 }
 
 #projects {
-    padding: 1.6rem;
+    padding: 1.6rem 1.6rem .7rem 1.6rem;
 }
 
 #projectsHead h1 {
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: .8rem;
+    margin-bottom: 1.6rem;
 }
 
 #projectsBody ul {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
 }
 
@@ -216,13 +216,17 @@ html:not([data-scroll="0"]) a {
     border-radius: 5px;
     background-color: rgb(240, 240, 240);
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .3);
-    margin: 1rem .7rem;
+    margin-bottom: 1.4rem;
+    margin-right: .8rem;
     transition: .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #projectsBody li:hover {
-    margin-top: -0.1rem;
-    margin-bottom: 2.1rem;
+    margin-top: -0.8rem;
+    margin-bottom: 2.2rem;
     transition: .5s;
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .5);
 }
@@ -240,20 +244,19 @@ html:not([data-scroll="0"]) a {
 }
 
 #projectsBody li #Link {
-    text-align: right;
-    margin: 1rem 0 .45rem 0;
+    text-align: center;
+    padding: .4rem .3rem;
+    width: 100%;
+    background-color: #181818;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 0px;
 }
 
-#projectsBody li #Link a {
-    /* background: linear-gradient(225deg, rgb(78, 255, 249) 0%, rgb(102, 255, 79) 100%); */
-    background-color: #191919;
-    border-radius: 3px;
-    padding: .3rem;
-    margin: .4rem .2rem;
+#projectsBody li a {
     color: white;
 }
 
-#projectsBody li #Link a:hover {
+#projectsBody li #Link:hover {
     background: linear-gradient(225deg, rgba(69, 67, 255) 0%, rgba(241, 81, 249) 100%);
 }
 
@@ -261,8 +264,33 @@ html:not([data-scroll="0"]) a {
     border-radius: 5px 5px 0 0;
 }
 
+.technologies {
+    margin-left: .7rem;
+    margin-right: .7rem;
+    margin-bottom: .3rem;
+    margin-top: .1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    font-size: 14px;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    margin-bottom: .4rem;
+    padding: .25rem .5rem;
+    background-color: #D9CCFF;
+    border-radius: .25rem;
+    color: rgb(40, 40, 40);
+    display: inline-block;
+    font-weight: 500;
+    border: 1px solid #a28dff;
+}
+
 footer {
-    background-color: #191919;
+    background-color: #181818;
     padding: 1.6rem;
     color: #fff;
 }

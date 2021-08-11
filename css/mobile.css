@@ -53,8 +53,8 @@ html:not([data-scroll="0"]) #navbarParent {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #191919;
-    box-shadow: 0 0 .5em 1px rgba(19, 19, 19, 0.5);
+    background-color: #181818;
+    box-shadow: 0 0 .5em 1px rgba(18, 18, 18, 0.5);
 }
 
 #accounts {

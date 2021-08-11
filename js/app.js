@@ -26,14 +26,18 @@ function renderUI(projetcs) {
     projetcs.forEach((p) => {
         const li = document.createElement("li");
 
+        const upDiv = document.createElement("div");
+
         const liPhoto = document.createElement("div");
         liPhoto.id = "liPhoto";
-
+        
         const liPhotoImg = document.createElement("img");
         liPhotoImg.src = "./images/projects/" + p.photoUrl;
         liPhotoImg.alt = p.photoUrl;
         liPhotoImg.className = "imageRadius";
         liPhotoImg.style.width = "100%";
+        
+        liPhoto.appendChild(liPhotoImg);
 
         const liHeader = document.createElement("div");
         liHeader.id = "liHeader";
@@ -43,12 +47,28 @@ function renderUI(projetcs) {
         liData.id = "liData";
         liData.innerHTML = p.description;
 
+        upDiv.appendChild(liPhoto);
+        upDiv.appendChild(liHeader);
+        upDiv.appendChild(liData);
+
+        const downDiv = document.createElement("div");
+
+        const technologiesDiv = document.createElement("div");
+        technologiesDiv.className = "technologies";
+
+        p.technologies.forEach((techs) => {
+            const badgeSpan = document.createElement("span");
+            badgeSpan.className = "badge";
+            badgeSpan.innerHTML = techs;
+            technologiesDiv.appendChild(badgeSpan);
+        })
+
+        const AElement = document.createElement("a");
+        AElement.href = p.link;
+        AElement.target = "_blank";
+
         const link = document.createElement("div");
         link.id = "Link";
-
-        const linkAElement = document.createElement("a");
-        linkAElement.href = p.link;
-        linkAElement.target = "_blank";
 
         const span = document.createElement("span");
         span.innerHTML = " " + p.header + " ";
@@ -60,17 +80,16 @@ function renderUI(projetcs) {
         svg.style.marginLeft = "2px";
         svg.style.marginBottom = "-2px";
 
-        liPhoto.appendChild(liPhotoImg);
+        link.appendChild(span);
+        link.appendChild(svg);
 
-        linkAElement.appendChild(span);
-        linkAElement.appendChild(svg);
+        AElement.appendChild(link);
 
-        link.appendChild(linkAElement);
+        downDiv.appendChild(technologiesDiv)
+        downDiv.appendChild(AElement);
 
-        li.appendChild(liPhoto);
-        li.appendChild(liHeader);
-        li.appendChild(liData);
-        li.appendChild(link);
+        li.appendChild(upDiv)
+        li.appendChild(downDiv)
 
         projectsElement.appendChild(li);
     });

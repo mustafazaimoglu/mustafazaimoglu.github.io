@@ -2,13 +2,19 @@
     {
         "photoUrl": "mryazilim.jpg",
         "header": "MR Yazılım",
-        "description": "Arkadaşımla birlikte Türkçe içerikli yazılım öğretimine destek amacıyla oluşturulan içerinde Ne Nedir? gibi bilgilendirme amaçlı bölümlerde olan Websitesi.",
+        "description": "Arkadaşımla birlikte Türkçe içerikli yazılım öğretimine destek amacıyla oluşturduğumuz içerisinde Ne Nedir? gibi bilgilendirme amaçlı bölümlerde bulunan Websitesi.",
+        "technologies":[
+            "HTML","CSS","BOOTSTRAP","JAVASCRIPT","PHP"
+        ],
         "link": "https://www.mryazilim.net/"
     },
     {
         "photoUrl": "citywalkz.jpg",
         "header": "City Walkz",
-        "description": "Youtube Iframe API kullanılarak oturduğumuz yerden dünya üzerindeki şehirleri yürüyerek gezme hazzı yaşatması için yapılan Websitesi.",
+        "description": "Youtube Iframe API kullanılarak oluşturulan oturduğumuz yerden dünya üzerindeki şehirleri yürüyerek gezme hazzı yaşatması amaçlanan Websitesi.",
+        "technologies":[
+            "HTML","CSS","JAVASCRIPT"
+        ],
         "link": "https://citywalkz.herokuapp.com/"
     }
 ]
