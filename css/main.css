@@ -292,7 +292,7 @@ html:not([data-scroll="0"]) a {
 
 footer {
     background-color: #181818;
-    padding: 1.6rem;
+    padding: 1rem 1.6rem 1.6rem 1.6rem;
     color: #fff;
 }
 
