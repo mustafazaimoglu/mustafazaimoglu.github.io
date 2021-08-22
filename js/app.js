@@ -1,6 +1,6 @@
 console.log("Coded By MKZ");
 storeScrollPosition(); // for first load
-const projectsElement = document.querySelector("#projectsBody ul");
+const projectsElement = document.querySelector("#projectsBody #projectListParent");
 const sayingElement = document.querySelector("#footerUp");
 let sayings = [
     "We all have two lives. The second begins when you realise you only have one",
@@ -24,7 +24,15 @@ sayingElement.innerHTML =
 
 function renderUI(projetcs) {
     projetcs.forEach((p) => {
-        const li = document.createElement("li");
+        const projectListItemHolder = document.createElement("div");
+        projectListItemHolder.id = "projectListItemHolder"
+
+        const projectListItem = document.createElement("div");
+        projectListItem.id = "projectListItem"
+
+        const date = document.createElement("div");
+        date.id = "date";
+        date.innerHTML = "Yayın Tarihi : " + p.releaseDate;
 
         const upDiv = document.createElement("div");
 
@@ -85,13 +93,16 @@ function renderUI(projetcs) {
 
         AElement.appendChild(link);
 
-        downDiv.appendChild(technologiesDiv)
+        downDiv.appendChild(technologiesDiv);
         downDiv.appendChild(AElement);
 
-        li.appendChild(upDiv)
-        li.appendChild(downDiv)
+        projectListItem.appendChild(upDiv);
+        projectListItem.appendChild(downDiv);
 
-        projectsElement.appendChild(li);
+        projectListItemHolder.appendChild(projectListItem);
+        projectListItemHolder.appendChild(date);
+
+        projectsElement.appendChild(projectListItemHolder);
     });
 }
 

@@ -181,7 +181,6 @@ html:not([data-scroll="0"]) a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 #educationBody li {
@@ -195,7 +194,7 @@ html:not([data-scroll="0"]) a {
 }
 
 #projects {
-    padding: 1.6rem 1.6rem .7rem 1.6rem;
+    padding: 1.6rem 1.6rem .1rem 1.6rem;
 }
 
 #projectsHead h1 {
@@ -204,47 +203,70 @@ html:not([data-scroll="0"]) a {
     margin-bottom: 1.6rem;
 }
 
-#projectsBody ul {
+#projectsBody #projectListParent {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap;
 }
 
-#projectsBody li {
+#projectsBody #projectListParent #projectListItemHolder {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 1.8rem;
+}
+
+#projectListItemHolder #date {
+    position: absolute;
+    padding: 0 .7rem ;
+    bottom: 1.8rem;
+    width: 100%;
+    right: 0;
+    font-size: 18px;
+    text-align: center;
+    color: #181818;
+    z-index: 10;
+    word-wrap: break-word;
+}
+
+#projectsBody #projectListItem {
     max-width: 460px;
     border-radius: 5px;
     background-color: rgb(240, 240, 240);
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .3);
-    margin-bottom: 1.4rem;
     margin-right: .7rem;
     margin-left: .7rem;
     transition: .5s;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: stretch;
+    z-index: 25;
+    position: inherit;
+    height: 100%;
 }
 
-#projectsBody li:hover {
-    margin-top: -0.8rem;
-    margin-bottom: 2.2rem;
+#projectsBody #projectListItem:hover {
+    margin-top: -1.2rem;
+    margin-bottom: 1.2rem;
     transition: .5s;
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .5);
 }
 
-#projectsBody li #liHeader {
+#projectsBody #projectListItem #liHeader {
     margin: .7rem;
 }
 
-#projectsBody li #liHeader h2 {
+#projectsBody #projectListItem #liHeader h2 {
     font-size: 1.35rem;
 }
 
-#projectsBody li #liData {
+#projectsBody #projectListItem #liData {
     margin: .7rem;
+    word-wrap: break-word;
 }
 
-#projectsBody li #Link {
+#projectsBody #projectListItem #Link {
     text-align: center;
     padding: .4rem .3rem;
     width: 100%;
@@ -253,11 +275,11 @@ html:not([data-scroll="0"]) a {
     margin-bottom: 0px;
 }
 
-#projectsBody li a {
+#projectsBody #projectListItem a {
     color: white;
 }
 
-#projectsBody li #Link:hover {
+#projectsBody #projectListItem #Link:hover {
     background: linear-gradient(225deg, rgba(69, 67, 255) 0%, rgba(241, 81, 249) 100%);
 }
 
@@ -268,7 +290,6 @@ html:not([data-scroll="0"]) a {
 .technologies {
     margin-left: .7rem;
     margin-right: .7rem;
-    margin-bottom: .3rem;
     margin-top: .1rem;
     display: flex;
     flex-wrap: wrap;

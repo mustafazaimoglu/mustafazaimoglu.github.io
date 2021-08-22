@@ -37,10 +37,9 @@ html:not([data-scroll="0"]) #navbarParent {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
-#projectsBody ul {
+#projectsBody #projectListParent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +54,7 @@ html:not([data-scroll="0"]) #navbarParent {
     bottom: 0;
     background-color: #181818;
     box-shadow: 0 0 .5em 1px rgba(18, 18, 18, 0.5);
+    z-index: 1000;
 }
 
 #accounts {

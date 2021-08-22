@@ -3,18 +3,32 @@
         "photoUrl": "mryazilim.jpg",
         "header": "MR Yazılım",
         "description": "Arkadaşımla birlikte Türkçe içerikli yazılım öğretimine destek amacıyla oluşturduğumuz içerisinde Ne Nedir? gibi bilgilendirme amaçlı bölümlerde bulunan Websitesi.",
-        "technologies":[
-            "HTML","CSS","BOOTSTRAP","JAVASCRIPT","PHP"
-        ],
-        "link": "https://www.mryazilim.net/"
+        "technologies": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT", "PHP"],
+        "link": "https://www.mryazilim.net/",
+        "releaseDate": "24.08.2020"
     },
     {
         "photoUrl": "citywalkz.jpg",
         "header": "City Walkz",
         "description": "Youtube Iframe API kullanılarak oluşturulan oturduğumuz yerden dünya üzerindeki şehirleri yürüyerek gezme hazzı yaşatması amaçlanan Websitesi.",
-        "technologies":[
-            "HTML","CSS","JAVASCRIPT"
-        ],
-        "link": "https://citywalkz.herokuapp.com/"
+        "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+        "link": "https://citywalkz.herokuapp.com/",
+        "releaseDate": "05.07.2021"
+    },
+    {
+        "photoUrl": "mkzpizza.jpg",
+        "header": "MKZ Pizza",
+        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi amacıyla online pizza sipariş sistemi simüle edilmiştir. Sepete ekleme-silme, büyüklüğe göre filtreleme gibi özellikleri vardır.",
+        "technologies": ["REACT","HOOKS","REDUX"],
+        "link": "https://mkzpizza.netlify.app/",
+        "releaseDate": "11.08.2020"
+    },
+    {
+        "photoUrl": "truthwall.jpg",
+        "header": "Truth Wall",
+        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesi simülasyonudur. Log in-Log out,Sign in, mesaj paylaşma,silme ve düzenleme gibi özellikleri vardır.",
+        "technologies": ["REACT","HOOKS","REDUX"],
+        "link": "https://truthwall.netlify.app/",
+        "releaseDate": "23.08.2020"
     }
 ]
