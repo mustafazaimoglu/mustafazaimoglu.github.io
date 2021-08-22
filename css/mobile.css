@@ -32,6 +32,10 @@ html:not([data-scroll="0"]) #navbarParent {
     margin: .1rem .7rem .4rem .7rem !important;
 }
 
+#mainPageSection {
+    padding: 1.8rem .75rem;
+}
+
 #educationBody ul {
     display: flex;
     flex-direction: column;
