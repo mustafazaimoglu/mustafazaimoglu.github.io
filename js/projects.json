@@ -1,5 +1,13 @@
 [
     {
+        "photoUrl": "mkzconverter.jpg",
+        "header": "MKZ Converter",
+        "description": "Ses veya video dosyasının FFMPEG kullanılarak 10 farklı formata dönüştürülmesine olanak sağlayan Java Swing Uygulaması.",
+        "technologies": ["JAVA","BATCH"],
+        "link": "https://github.com/mustafazaimoglu/MKZ-Converter",
+        "releaseDate": "16.04.2020"
+    },
+    {
         "photoUrl": "mryazilim.jpg",
         "header": "MR Yazılım",
         "description": "Arkadaşımla birlikte Türkçe içerikli yazılım öğretimine destek amacıyla oluşturduğumuz içerisinde Ne Nedir? gibi bilgilendirme amaçlı bölümlerde bulunan Websitesi.",
