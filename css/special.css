@@ -6,9 +6,3 @@
     margin-top: 100px;
     margin-bottom: 30px;
 }
-
-.sideBarPositioning {
-    position: absolute;
-    right: .8rem;
-    bottom: unset;
-} 
