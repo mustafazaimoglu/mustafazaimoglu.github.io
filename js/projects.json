@@ -29,7 +29,7 @@
         "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi amacıyla online pizza sipariş sistemi simüle edilmiştir. Sepete ekleme-silme, büyüklüğe göre filtreleme gibi özellikleri vardır.",
         "technologies": ["REACT","HOOKS","REDUX"],
         "link": "https://mkzpizza.netlify.app/",
-        "releaseDate": "11.08.2020"
+        "releaseDate": "11.08.2021"
     },
     {
         "photoUrl": "truthwall.jpg",
@@ -37,6 +37,6 @@
         "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesi simülasyonudur. Log in-Log out,Sign in, mesaj paylaşma,silme ve düzenleme gibi özellikleri vardır.",
         "technologies": ["REACT","HOOKS","REDUX"],
         "link": "https://truthwall.netlify.app/",
-        "releaseDate": "23.08.2020"
+        "releaseDate": "23.08.2021"
     }
 ]
