@@ -7,29 +7,46 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 65px;
+    height: 50px;
 }
 
 html:not([data-scroll="0"]) #navbarParent {
-    height: 65px;
+    height: 50px;
 }
 
 #navbar {
     height: 100%;
     padding: 0;
     background-color: #fff;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    height: 50px;
+    padding: 0 2.25rem 0 2.25rem;
+}
+
+#navbar div {
+    margin: 0;
 }
 
 #navbar a {
     color: #000;
-    margin: .55rem .6rem .4rem .6rem;
+    margin: 0rem;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 #navbarLinks {
+    display: none;
     margin: .1rem .7rem .4rem .7rem !important;
+}
+
+#mobileNavOpenButton {
+    display: block;
+}
+
+#mobileDropDownNav {
+    display: block;
 }
 
 #mainPageSection {
@@ -56,9 +73,9 @@ html:not([data-scroll="0"]) #navbarParent {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #181818;
-    box-shadow: 0 0 .5em 1px rgba(18, 18, 18, 0.5);
-    z-index: 1000;
+    z-index: 2501;
+    margin-bottom: -3.5rem;
+    transition: .8s;
 }
 
 #accounts {
@@ -72,6 +89,10 @@ html:not([data-scroll="0"]) #navbarParent {
 .accountSvg {
     padding: .3rem .35rem .1rem;
     margin: .1rem;
+}
+
+.accountImageSize {
+    width: 35px;
 }
 
 #educationBody ul {
