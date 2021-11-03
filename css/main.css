@@ -139,8 +139,8 @@ html:not([data-scroll="0"]) a {
     z-index: 2500;
     top: 0;
     left: 0;
-    backdrop-filter: blur(6px);
-    background-color: rgba(18, 18, 18, 0.95);
+    backdrop-filter: blur(5px);
+    background-color: rgba(18, 18, 18, 0.985);
     overflow-y: hidden;
     transition: 0.5s;
 }
