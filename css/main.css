@@ -386,14 +386,17 @@ html:not([data-scroll="0"]) a {
 
 footer {
     background-color: #181818;
-    padding: 1rem 1.6rem 1.6rem 1.6rem;
+    padding: .9rem 1.6rem 1.4rem 1.6rem;
     color: #fff;
 }
 
 #footerUp {
     font-style: italic;
     text-align: center;
-    padding: .7rem;
+    padding-top: .6rem;
+    padding-bottom: .9rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
 }
 
 #footerDown {

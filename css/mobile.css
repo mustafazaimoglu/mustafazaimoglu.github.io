@@ -103,7 +103,3 @@ html:not([data-scroll="0"]) #navbarParent {
 #educationBody li {
     min-width: 200px;
 }
-
-footer {
-    padding: .9rem 1.6rem 1.4rem 1.6rem;
-}
