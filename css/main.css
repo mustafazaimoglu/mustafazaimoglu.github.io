@@ -105,11 +105,11 @@ html:not([data-scroll="0"]) a {
     transition: .4s;
 }
 
-#mobileNavOpenButton img{
+#mobileNavOpenButton img {
     margin-top: 0.15rem;
 }
 
-#mobileNavOpenButton img:hover{
+#mobileNavOpenButton img:hover {
     margin-top: 0.6rem;
     opacity: 0.5;
     transition: .3s;
@@ -124,7 +124,7 @@ html:not([data-scroll="0"]) a {
     padding-bottom: .2rem;
 }
 
-#mobileNavCloseButton:hover{
+#mobileNavCloseButton:hover {
     opacity: 0.4;
     transition: .4s;
     padding-top: .7rem;
@@ -160,7 +160,7 @@ html:not([data-scroll="0"]) a {
     align-items: center;
 }
 
-#mobileNavLinks a{
+#mobileNavLinks a {
     padding: 12px;
     font-size: 2rem;
     transition: 0.4s;
@@ -168,7 +168,7 @@ html:not([data-scroll="0"]) a {
     width: 100%;
 }
 
-#mobileNavLinks a:hover{
+#mobileNavLinks a:hover {
     opacity: 0.4;
 }
 

@@ -11,9 +11,9 @@ const dropDownOpenButton = document.querySelector("#mobileNavOpenButton img");
 const dropDownCloseButton = document.querySelector("#mobileNavCloseButton");
 const dropDownMenu = document.querySelector("#mobileDropDownNav");
 const accounts = document.querySelector(".sideBarPositioning");
-const navLinks = document.getElementsByClassName("shutDropDown")
+const navLinks = document.getElementsByClassName("shutDropDown");
 
-for (let element of navLinks){
+for (let element of navLinks) {
     element.addEventListener("click", closeDropDown);
 }
 
@@ -167,4 +167,3 @@ function renderUI(projetcs) {
         projectsElement.appendChild(projectListItemHolder);
     });
 }
-

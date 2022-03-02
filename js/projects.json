@@ -3,7 +3,7 @@
         "photoUrl": "mkzconverter.jpg",
         "header": "MKZ Converter",
         "description": "Ses veya video dosyasının FFMPEG kullanılarak 10 farklı formata dönüştürülmesine olanak sağlayan Java Swing Uygulaması.",
-        "technologies": ["JAVA","BATCH"],
+        "technologies": ["JAVA", "BATCH"],
         "link": "https://github.com/mustafazaimoglu/MKZ-Converter",
         "releaseDate": "16.04.2020"
     },
@@ -27,7 +27,7 @@
         "photoUrl": "mkzpizza.jpg",
         "header": "MKZ Pizza",
         "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi amacıyla online pizza sipariş sistemi simüle edilmiştir. Sepete ekleme-silme, büyüklüğe göre filtreleme gibi özellikleri vardır.",
-        "technologies": ["REACT","HOOKS","REDUX"],
+        "technologies": ["REACT", "HOOKS", "REDUX"],
         "link": "https://mkzpizza.netlify.app/",
         "releaseDate": "11.08.2021"
     },
@@ -35,7 +35,7 @@
         "photoUrl": "truthwall.jpg",
         "header": "Truth Wall",
         "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesi simülasyonudur. Log in-Log out,Sign in, mesaj paylaşma,silme ve düzenleme gibi özellikleri vardır.",
-        "technologies": ["REACT","HOOKS","REDUX"],
+        "technologies": ["REACT", "HOOKS", "REDUX"],
         "link": "https://truthwall.netlify.app/",
         "releaseDate": "23.08.2021"
     }
