@@ -224,6 +224,7 @@ html:not([data-scroll="0"]) a {
     justify-content: center;
     padding: 1.8rem;
     background-color: rgba(44, 44, 44, 0.4);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     border-radius: 8px;
 }
