@@ -34,9 +34,9 @@
     {
         "photoUrl": "truthwall.jpg",
         "header": "Truth Wall",
-        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesi simülasyonudur. Log in-Log out,Sign in, mesaj paylaşma,silme ve düzenleme gibi özellikleri vardır.",
-        "technologies": ["REACT", "HOOKS", "REDUX"],
+        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesidir. Log in-Log out, Sign in, mesaj paylaşma, silme ve düzenleme gibi özellikleri vardır. Proje sonradan güncellenmiş olup Java Spring Boot backend ve Postgresql desteği eklenmiştir. Post ekleyerek test edebilirsiniz :)",
+        "technologies": ["REACT", "REDUX", "SPRNG BOOT", "POSTGRESQL"],
         "link": "https://truthwall.netlify.app/",
-        "releaseDate": "23.08.2021"
+        "releaseDate": "31.08.2022"
     }
 ]
