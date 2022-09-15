@@ -81,9 +81,13 @@ html:not([data-scroll="0"]) #navbarParent {
 #accounts {
     display: flex;
     flex-direction: row;
-    padding-top: .1rem;
     justify-content: center;
     align-items: center;
+    background-color: unset;
+    -webkit-backdrop-filter: unset;
+    backdrop-filter: unset;
+    border-radius: unset;
+    padding: .2rem 1rem .4rem 1.05rem;
 }
 
 .accountSvg {
@@ -91,9 +95,6 @@ html:not([data-scroll="0"]) #navbarParent {
     margin: .1rem;
 }
 
-.accountImageSize {
-    width: 35px;
-}
 
 #educationBody ul {
     justify-content: center;
