@@ -95,6 +95,9 @@ html:not([data-scroll="0"]) #navbarParent {
     margin: .1rem;
 }
 
+.accountImageSize {
+    width: 35px;
+}
 
 #educationBody ul {
     justify-content: center;
