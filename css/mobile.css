@@ -68,7 +68,7 @@ html:not([data-scroll="0"]) #navbarParent {
     flex-wrap: wrap;
 }
 
-.sideBarPositioning {
+.accounts-position {
     position: fixed;
     right: 0;
     left: 0;

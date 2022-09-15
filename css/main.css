@@ -172,7 +172,7 @@ html:not([data-scroll="0"]) a {
     opacity: 0.4;
 }
 
-.sideBarPositioning {
+.accounts-position {
     position: absolute;
     bottom: .25rem;
 }

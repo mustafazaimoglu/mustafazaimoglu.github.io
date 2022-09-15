@@ -10,7 +10,7 @@ const sayingElement = document.querySelector("#footerUp");
 const dropDownOpenButton = document.querySelector("#mobileNavOpenButton img");
 const dropDownCloseButton = document.querySelector("#mobileNavCloseButton");
 const dropDownMenu = document.querySelector("#mobileDropDownNav");
-const accounts = document.querySelector(".sideBarPositioning");
+const accounts = document.querySelector(".accounts-position");
 const navLinks = document.getElementsByClassName("shutDropDown");
 
 for (let element of navLinks) {
