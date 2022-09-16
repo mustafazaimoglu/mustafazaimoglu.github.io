@@ -20,7 +20,7 @@
         "header": "City Walkz",
         "description": "Youtube Iframe API kullanılarak oluşturulan oturduğumuz yerden dünya üzerindeki şehirleri yürüyerek gezme hazzı yaşatması amaçlanan Websitesi.",
         "technologies": ["HTML", "CSS", "JAVASCRIPT"],
-        "link": "https://citywalkz.herokuapp.com/",
+        "link": "https://citywalkz.netlify.app/",
         "releaseDate": "05.07.2021"
     },
     {
