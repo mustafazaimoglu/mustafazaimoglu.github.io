@@ -27,7 +27,6 @@ document.addEventListener("scroll", () => {
 });
 
 let sayings = [
-    "We all have two lives. The second begins when you realise you only have one",
     "The real knowledge is to know that you know nothing",
     "Trees grow in silence",
     "The trouble is, you think you have time",
