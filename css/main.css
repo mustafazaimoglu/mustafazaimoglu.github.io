@@ -244,10 +244,16 @@ html:not([data-scroll="0"]) a {
 #mainHeader h1 {
     font-weight: bold;
     font-size: 2.1rem;
+    text-align: center;
 }
 
-#mainInfo {
+#mainInfo p{
     font-size: 1.2rem;
+    text-align: center;
+}
+
+#mainInfo p:first-child{
+    margin-bottom: .3rem;
 }
 
 #education {
