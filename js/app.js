@@ -28,13 +28,9 @@ document.addEventListener("scroll", () => {
 
 let sayings = [
     "The real knowledge is to know that you know nothing",
-    "Trees grow in silence",
-    "The trouble is, you think you have time",
-    "Yesterday is history, tomorrow is a mistery but today is a gift. That is why it is called present",
     "Have more than you show, speak less than you know",
     "Dear past, thanks for all the lessons",
-    "Work until you no longer have to introduce yourself",
-    "If you believe you will never get better, you are correct. If you believe you can get better, you are more correct",
+    "Work until you no longer have to introduce yourself"
 ];
 
 getJSON();
