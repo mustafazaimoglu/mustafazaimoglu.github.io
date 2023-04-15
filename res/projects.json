@@ -45,6 +45,10 @@
             {
                 "name":"City Walkz",
                 "url":"https://citywalkz.netlify.app/"
+            },
+            {
+                "name":"Github",
+                "url":"https://github.com/mustafazaimoglu/citywalkz"
             }
         ],
         "releaseDate": "05.07.2021"
@@ -70,7 +74,7 @@
     {
         "photoUrl": "truthwall.jpg",
         "header": "Truth Wall",
-        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesidir. Log in-Log out, Sign in, mesaj paylaşma, silme ve düzenleme gibi özellikleri vardır. Proje sonradan güncellenmiş olup Java Spring Boot backend ve Postgresql desteği eklenmiştir. Post ekleyerek test edebilirsiniz :)",
+        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesidir. Log in-Log out, Sign in, mesaj paylaşma, silme ve düzenleme gibi özellikleri vardır. Proje sonradan güncellenmiş olup Java Spring backend ve PostgreSql eklenmiştir",
         "technologies": ["REACT", "REDUX", "SPRNG BOOT", "POSTGRESQL"],
         "isLive": true,
         "links": [

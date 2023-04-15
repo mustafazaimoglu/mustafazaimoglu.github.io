@@ -26,14 +26,8 @@ document.addEventListener("scroll", () => {
     storeScrollPosition();
 });
 
-let sayings = [
-    "The real knowledge is to know that you know nothing",
-    "Have more than you show, speak less than you know",
-    "Dear past, thanks for all the lessons",
-    "Work until you no longer have to introduce yourself"
-];
-
-getJSON();
+getProjects();
+getSayings();
 
 function reportWindowSize() {
     if (window.innerWidth > 768) {
@@ -65,10 +59,17 @@ function resetMarginAccounts() {
     accounts.style.marginBottom = "unset";
 }
 
-function getJSON() {
-    fetch("./js/projects.json")
+function getProjects() {
+    fetch("./res/projects.json")
         .then((response) => response.json())
-        .then((data) => renderUI(data))
+        .then((data) => renderProjectsOnUI(data))
+        .catch((err) => console.error(err));
+}
+
+function getSayings() {
+    fetch("./res/sayings.json")
+        .then((response) => response.json())
+        .then((data) => renderOneSayingOnUI(data))
         .catch((err) => console.error(err));
 }
 
@@ -76,8 +77,10 @@ function storeScrollPosition() {
     document.documentElement.dataset.scroll = window.scrollY;
 }
 
-sayingElement.innerHTML =
+function renderOneSayingOnUI(sayings){
+    sayingElement.innerHTML =
     '"' + sayings[Math.floor(Math.random() * sayings.length)] + '"';
+}
 
 function offlineProjectFooter(){
     const offlineLinkContainer = document.createElement("div");
@@ -96,15 +99,26 @@ function offlineProjectFooter(){
 }
 
 function onlineProjectFooter(links){
+    const length = links.length;
     const onlineLinkContainer = document.createElement("div");
     onlineLinkContainer.id = "onlineLinkContainer"
-    links.forEach((l) => {
+    links.forEach((l,index) => {
         const AElement = document.createElement("a");
         AElement.href = l.url;
         AElement.target = "_blank";
-    
+        
         const link = document.createElement("div");
-        link.id = "Link";
+        link.id = "Link";   
+        
+        if (length > 1) {
+            if (index === 0) {
+                link.className = "right-border-1px"
+            } else if (index === length - 1) {
+                link.className = "left-border-1px"
+            } else {
+                link.className = "right-border-1px left-border-1px"
+            }
+        }
     
         const span = document.createElement("span");
         span.innerHTML = " " + l.name + " ";
@@ -126,7 +140,7 @@ function onlineProjectFooter(links){
     return onlineLinkContainer;
 }
 
-function renderUI(projetcs) {
+function renderProjectsOnUI(projetcs) {
     projetcs.forEach((p) => {
         const projectListItemHolder = document.createElement("div");
         projectListItemHolder.id = "projectListItemHolder";

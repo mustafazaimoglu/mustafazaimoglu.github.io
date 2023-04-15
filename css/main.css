@@ -180,7 +180,7 @@ html:not([data-scroll="0"]) a {
 #accounts {
     display: flex;
     flex-direction: row;
-    padding: .2rem 1rem .2rem 1.05rem;
+    padding: .2rem .6rem .2rem .65rem;
     background-color: rgba(15, 15, 15, 0.4);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
@@ -318,6 +318,13 @@ html:not([data-scroll="0"]) a {
     padding-bottom: 1.8rem;
 }
 
+#projectsBody #projectListParent #projectListItemHolder:hover #projectListItem{
+    margin-top: -1.2rem;
+    margin-bottom: 1.2rem;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .5);
+}
+
 #projectListItemHolder #date {
     position: absolute;
     padding: 0 .7rem;
@@ -348,13 +355,6 @@ html:not([data-scroll="0"]) a {
     height: 100%;
 }
 
-#projectsBody #projectListItem:hover {
-    margin-top: -1.2rem;
-    margin-bottom: 1.2rem;
-    transition: .5s ease-in-out;
-    box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .5);
-}
-
 #projectsBody #projectListItem #liHeader {
     margin: .7rem;
 }
@@ -383,7 +383,15 @@ html:not([data-scroll="0"]) a {
     background-color: #181818;
     border-radius: 0px 0px 5px 5px;
     margin-bottom: 0px;
-    border: solid 2px rgb(240, 240, 240);
+    border: solid 2px rgb(240, 240, 240);  
+}
+
+.left-border-1px {
+    border-left-width: 1px !important;
+}
+
+.right-border-1px {
+    border-right-width: 1px !important;
 }
 
 #projectsBody #projectListItem #offlineLink {
