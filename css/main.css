@@ -265,7 +265,8 @@ html:not([data-scroll="0"]) a {
 #educationHead h1 {
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: .7rem;
+    margin-bottom: .9rem;
+    margin-top: -.3rem;
 }
 
 #educationBody ul {
@@ -300,7 +301,8 @@ html:not([data-scroll="0"]) a {
 #projectsHead h1 {
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.5rem;
+    margin-top: -.3rem;
 }
 
 #projectsBody #projectListParent {
@@ -336,7 +338,7 @@ html:not([data-scroll="0"]) a {
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .3);
     margin-right: .7rem;
     margin-left: .7rem;
-    transition: .5s;
+    transition: .5s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -349,7 +351,7 @@ html:not([data-scroll="0"]) a {
 #projectsBody #projectListItem:hover {
     margin-top: -1.2rem;
     margin-bottom: 1.2rem;
-    transition: .5s;
+    transition: .5s ease-in-out;
     box-shadow: 0 0 .5em 2px rgba(0, 0, 0, .5);
 }
 
@@ -366,6 +368,14 @@ html:not([data-scroll="0"]) a {
     word-wrap: break-word;
 }
 
+#projectsBody #projectListItem #onlineLinkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240,240,240);
+    border-radius: 8px;
+}
+
 #projectsBody #projectListItem #Link {
     text-align: center;
     padding: .4rem .3rem;
@@ -373,10 +383,23 @@ html:not([data-scroll="0"]) a {
     background-color: #181818;
     border-radius: 0px 0px 5px 5px;
     margin-bottom: 0px;
+    border: solid 2px rgb(240, 240, 240);
+}
+
+#projectsBody #projectListItem #offlineLink {
+    text-align: center;
+    padding: .4rem .3rem;
+    width: 100%;
+    background-color: #dc0000;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 0px;
+    color: #fff;
+    border: solid 2px rgb(240, 240, 240);
 }
 
 #projectsBody #projectListItem a {
-    color: white;
+    color: #fff;
+    width: 100%;
 }
 
 #projectsBody #projectListItem #Link:hover {

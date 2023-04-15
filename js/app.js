@@ -79,6 +79,53 @@ function storeScrollPosition() {
 sayingElement.innerHTML =
     '"' + sayings[Math.floor(Math.random() * sayings.length)] + '"';
 
+function offlineProjectFooter(){
+    const offlineLinkContainer = document.createElement("div");
+    offlineLinkContainer.id = "offlineLinkContainer"
+
+    const offlineLink = document.createElement("div");
+    offlineLink.id = "offlineLink";
+
+    const span = document.createElement("span");
+    span.innerHTML = " Offline ";
+
+    offlineLink.appendChild(span);
+    offlineLinkContainer.appendChild(offlineLink);
+
+    return offlineLinkContainer;
+}
+
+function onlineProjectFooter(links){
+    const onlineLinkContainer = document.createElement("div");
+    onlineLinkContainer.id = "onlineLinkContainer"
+    links.forEach((l) => {
+        const AElement = document.createElement("a");
+        AElement.href = l.url;
+        AElement.target = "_blank";
+    
+        const link = document.createElement("div");
+        link.id = "Link";
+    
+        const span = document.createElement("span");
+        span.innerHTML = " " + l.name + " ";
+    
+        const svg = document.createElement("img");
+        svg.src = "./images/svg/external-link.svg";
+        svg.alt = "linkSVG";
+        svg.style.height = "18px";
+        svg.style.marginLeft = "2px";
+        svg.style.marginBottom = "-2px";
+    
+        link.appendChild(span);
+        link.appendChild(svg);
+    
+        AElement.appendChild(link);
+        onlineLinkContainer.appendChild(AElement)
+    });
+
+    return onlineLinkContainer;
+}
+
 function renderUI(projetcs) {
     projetcs.forEach((p) => {
         const projectListItemHolder = document.createElement("div");
@@ -128,30 +175,12 @@ function renderUI(projetcs) {
             technologiesDiv.appendChild(badgeSpan);
         });
 
-        const AElement = document.createElement("a");
-        AElement.href = p.link;
-        AElement.target = "_blank";
-
-        const link = document.createElement("div");
-        link.id = "Link";
-
-        const span = document.createElement("span");
-        span.innerHTML = " " + p.header + " ";
-
-        const svg = document.createElement("img");
-        svg.src = "./images/svg/external-link.svg";
-        svg.alt = "linkSVG";
-        svg.style.height = "18px";
-        svg.style.marginLeft = "2px";
-        svg.style.marginBottom = "-2px";
-
-        link.appendChild(span);
-        link.appendChild(svg);
-
-        AElement.appendChild(link);
-
         downDiv.appendChild(technologiesDiv);
-        downDiv.appendChild(AElement);
+        if (p.isLive) {
+            downDiv.appendChild(onlineProjectFooter(p.links))
+        } else {
+            downDiv.appendChild(offlineProjectFooter());
+        }
 
         projectListItem.appendChild(upDiv);
         projectListItem.appendChild(downDiv);

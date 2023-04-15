@@ -53,11 +53,20 @@ html:not([data-scroll="0"]) #navbarParent {
     padding: 1.8rem .75rem;
 }
 
+#education {
+    padding: 1.6rem 1.1rem;
+}
+
 #educationBody ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+
+#projects {
+    padding: 1.6rem .4rem .1rem .4rem;
 }
 
 #projectsBody #projectListParent {
@@ -106,4 +115,5 @@ html:not([data-scroll="0"]) #navbarParent {
 
 #educationBody li {
     min-width: 200px;
+    max-width: 460px;
 }
