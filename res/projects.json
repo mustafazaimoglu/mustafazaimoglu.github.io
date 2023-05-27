@@ -88,20 +88,5 @@
             }
         ],
         "releaseDate": "31.08.2022"
-    },
-    {
-        "photoUrl": "kstreamer.jpg",
-        "header": "KStreamer",
-        "description": "Tam anlamıyla bir Full-Stack Web projesidir. Youtube üzerindeki belirli videoların KStreamer platformu üzerindeki izlenme istatistikleri tutulup kişiler arasındaki rekabeti ortaya çıkarmak için yapılmıştır. Server kısmında AWS kullanılmıştır. Cron operasyonlarından tutunda Email yönetimine kadar birçok özelliği vardır.",
-        "technologies": [
-            "REACT",
-            "REDUX",
-            "SPRNG BOOT",
-            "POSTGRESQL",
-            "YOUTUBE API",
-            "AWS"
-        ],
-        "isLive": false,
-        "releaseDate": "24.08.2022"
     }
 ]
