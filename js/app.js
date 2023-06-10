@@ -12,6 +12,7 @@ const dropDownCloseButton = document.querySelector("#mobileNavCloseButton");
 const dropDownMenu = document.querySelector("#mobileDropDownNav");
 const accounts = document.querySelector(".accounts-position");
 const navLinks = document.getElementsByClassName("shutDropDown");
+document.getElementById("yearHolder").innerHTML = new Date().getFullYear();
 
 for (let element of navLinks) {
     element.addEventListener("click", closeDropDown);

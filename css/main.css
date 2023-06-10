@@ -464,7 +464,7 @@ footer {
     justify-content: center;
 }
 
-footer #footerDown span {
+footer #footerDown span:nth-child(odd) {
     width: 44px;
     height: 11px;
     border-bottom: 2px #fff solid;
