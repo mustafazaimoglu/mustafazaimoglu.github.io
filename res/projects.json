@@ -1,17 +1,79 @@
 [
     {
-        "photoUrl": "yumak.jpg",
-        "header": "Yumak",
-        "description": "Üniversite'de ödevlendirme olarak verilen ve arkadaşımla yaptığımız, Java Swing ile yapılan oyun projesi.",
-        "technologies": ["JAVA","SWING"],
+        "photoUrl": "pentaho-io.png",
+        "header": "Pentaho IO",
+        "description": "Pentaho ETL uygulamasında birebir aktarım için otomatik çizim uygulaması.",
+        "technologies": ["HTML", "CSS", "JAVASCRIPT"],
         "isLive": true,
         "links": [
             {
-                "name":"Github",
-                "url":"https://github.com/mustafazaimoglu/Java/tree/master/Final%20Project/Yumak%20Projesi%20Final%20V2"
+                "name":"Pentaho IO",
+                "url":"https://pentaho.netlify.app/"
             }
         ],
-        "releaseDate": "01.06.2020"
+        "releaseDate": "19.08.2023"
+    },
+    {
+        "photoUrl": "truthwall.jpg",
+        "header": "Truth Wall",
+        "description": "Twitter benzeri bir ortamı simüle etmek için yapılan küçük çapta bir sosyal paylaşım sitesi.",
+        "technologies": ["REACT", "REDUX", "SPRNG BOOT", "POSTGRESQL"],
+        "isLive": true,
+        "links": [
+            {
+                "name":"Frontend",
+                "url":"https://github.com/mustafazaimoglu/truthwall-reactapp"
+            },
+            {
+                "name":"Backend",
+                "url":"https://github.com/mustafazaimoglu/truthwall-backend"
+            }
+        ],
+        "releaseDate": "31.08.2022"
+    },
+    {
+        "photoUrl": "mkzpizza.jpg",
+        "header": "MKZ Pizza",
+        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi amacıyla online pizza sipariş sistemi simüle edilmiştir.",
+        "technologies": ["REACT", "HOOKS", "REDUX"],
+        "isLive": true,
+        "links": [
+            {
+                "name":"MKZ Pizza",
+                "url":"https://mkzpizza.netlify.app/"
+            },
+            {
+                "name":"Github",
+                "url":"https://github.com/mustafazaimoglu/mkzpizza-reactapp"
+            }
+        ],
+        "releaseDate": "11.08.2021"
+    },
+    {
+        "photoUrl": "citywalkz.jpg",
+        "header": "City Walkz",
+        "description": "Youtube Iframe API kullanılarak oluşturulan dünya üzerindeki şehirleri yürüyerek gezme imkanı sağlayan Websitesi.",
+        "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+        "isLive": true,
+        "links": [
+            {
+                "name":"City Walkz",
+                "url":"https://citywalkz.netlify.app/"
+            },
+            {
+                "name":"Github",
+                "url":"https://github.com/mustafazaimoglu/citywalkz"
+            }
+        ],
+        "releaseDate": "05.07.2021"
+    },
+    {
+        "photoUrl": "mryazilim.jpg",
+        "header": "MR Yazılım",
+        "description": "Arkadaşımla birlikte Türkçe içerikli yazılım öğretimine destek amacıyla oluşturduğumuz içerisinde Ne Nedir? gibi bilgilendirme amaçlı bölümlerde bulunan Websitesi.",
+        "technologies": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT", "PHP"],
+        "isLive": false,
+        "releaseDate": "24.08.2020"
     },
     {
         "photoUrl": "mkzconverter.jpg",
@@ -28,65 +90,17 @@
         "releaseDate": "21.06.2020"
     },
     {
-        "photoUrl": "mryazilim.jpg",
-        "header": "MR Yazılım",
-        "description": "Arkadaşımla birlikte Türkçe içerikli yazılım öğretimine destek amacıyla oluşturduğumuz içerisinde Ne Nedir? gibi bilgilendirme amaçlı bölümlerde bulunan Websitesi.",
-        "technologies": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT", "PHP"],
-        "isLive": false,
-        "releaseDate": "24.08.2020"
-    },
-    {
-        "photoUrl": "citywalkz.jpg",
-        "header": "City Walkz",
-        "description": "Youtube Iframe API kullanılarak oluşturulan oturduğumuz yerden dünya üzerindeki şehirleri yürüyerek gezme hazzı yaşatması amaçlanan Websitesi.",
-        "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+        "photoUrl": "yumak.jpg",
+        "header": "Yumak",
+        "description": "Üniversite'de ödevlendirme olarak verilen ve arkadaşımla yaptığımız, Java Swing ile yapılan oyun projesi.",
+        "technologies": ["JAVA","SWING"],
         "isLive": true,
         "links": [
-            {
-                "name":"City Walkz",
-                "url":"https://citywalkz.netlify.app/"
-            },
             {
                 "name":"Github",
-                "url":"https://github.com/mustafazaimoglu/citywalkz"
+                "url":"https://github.com/mustafazaimoglu/Java/tree/master/Final%20Project/Yumak%20Projesi%20Final%20V2"
             }
         ],
-        "releaseDate": "05.07.2021"
-    },
-    {
-        "photoUrl": "mkzpizza.jpg",
-        "header": "MKZ Pizza",
-        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi amacıyla online pizza sipariş sistemi simüle edilmiştir. Sepete ekleme-silme, büyüklüğe göre filtreleme gibi özellikleri vardır.",
-        "technologies": ["REACT", "HOOKS", "REDUX"],
-        "isLive": true,
-        "links": [
-            {
-                "name":"MKZ Pizza",
-                "url":"https://mkzpizza.netlify.app/"
-            },
-            {
-                "name":"Github",
-                "url":"https://github.com/mustafazaimoglu/mkzpizza-reactapp"
-            }
-        ],
-        "releaseDate": "11.08.2021"
-    },
-    {
-        "photoUrl": "truthwall.jpg",
-        "header": "Truth Wall",
-        "description": "React, React-Hooks ve Redux teknolojilerinin pekiştirilmesi adına küçük çapta bir sosyal paylaşım sitesidir. Log in-Log out, Sign in, mesaj paylaşma, silme ve düzenleme gibi özellikleri vardır. Proje sonradan güncellenmiş olup Java Spring backend ve PostgreSql eklenmiştir",
-        "technologies": ["REACT", "REDUX", "SPRNG BOOT", "POSTGRESQL"],
-        "isLive": true,
-        "links": [
-            {
-                "name":"Frontend",
-                "url":"https://github.com/mustafazaimoglu/truthwall-reactapp"
-            },
-            {
-                "name":"Backend",
-                "url":"https://github.com/mustafazaimoglu/truthwall-backend"
-            }
-        ],
-        "releaseDate": "31.08.2022"
+        "releaseDate": "01.06.2020"
     }
 ]
